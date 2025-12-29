@@ -7,14 +7,15 @@ Atualmente, dedico meu tempo ao desenvolvimento de laboratórios práticos (como
 ## 🎓 Certificações e Conquistas
 
 ### 🛡️ Cibersegurança
-* [**Fortinet Certified Fundamentals (FCF) - Cybersecurity**](https://www.credly.com/earner/earned/badge/05439bda-6a5d-40e8-bdff-1ff4daf17a23)
-* [NSE 1: Getting Started in Cybersecurity 3.0](https://www.credly.com/earner/earned/badge/358bfae1-0e88-4dc3-aea3-0992a4f70bcf) (Fortinet)
-* [NSE 2: Technical Introduction to Cybersecurity 3.0](https://www.credly.com/earner/earned/badge/dba43948-44f0-44ac-8175-229978883dc3) (Fortinet)
-* [Cisco Network Defense](https://www.credly.com/earner/earned/badge/739b47ae-a961-44a6-b204-9739bcac93b6) 
+* [**Fortinet Certified Fundamentals (FCF) - Cybersecurity**](https://www.credly.com/badges/05439bda-6a5d-40e8-bdff-1ff4daf17a23/public_url)
+* [NSE 1: Getting Started in Cybersecurity 3.0](https://www.credly.com/badges/358bfae1-0e88-4dc3-aea3-0992a4f70bcf/public_url) (Fortinet)
+* [NSE 2: Technical Introduction to Cybersecurity 3.0](https://www.credly.com/badges/dba43948-44f0-44ac-8175-229978883dc3/public_url
+  ) (Fortinet)
+* [Cisco Network Defense](https://www.credly.com/badges/739b47ae-a961-44a6-b204-9739bcac93b6/public_url) 
 
 ### 🌐 Infraestrutura e Redes
-* [Cisco Network Technician Career Path](https://www.credly.com/earner/earned/badge/51b47656-ba64-4c66-a309-938e52e4f2bd) 
-* [Cisco Networking Academy Learn-A-Thon 2025](https://www.credly.com/earner/earned/badge/626cec39-cfbe-4676-bb8b-e0bbc326f1e1)
+* [Cisco Network Technician Career Path](https://www.credly.com/badges/51b47656-ba64-4c66-a309-938e52e4f2bd/public_url) 
+
 
 
 
