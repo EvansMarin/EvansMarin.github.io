@@ -79,3 +79,40 @@ A etapa final validou a eficácia da política através da conexão de um dispos
 ![Intruso Bloqueado (Cabos Vermelhos)](print/11-incidente-intruso-bloqueado.png)
 ![Comandos de Recuperação CLI](print/12-recuperacao-servico-manual.png)
 ![Serviço Restaurado (Conexão Verde)](print/13-recuperacao-servico-manual.png)
+
+---
+
+
+# Infraestrutura de rede local segura
+
+1. **Simulei uma rede do zero:** Montei uma topologia com roteador e switches para entender como o tráfego de uma empresa se comporta na prática.
+
+![Topologia da Rede](14-topologia-infra-rede-segura.png)
+
+2. **Configurei a segmentação da rede:** Criei as VLANs para o Financeiro e para o Suporte. Usei o protocolo VTP para não ter o trabalho manual de criar cada rede em cada switch, garantindo que todos ficassem sincronizados automaticamente.
+
+![Segmentação VLAN e VTP](15-segmentacao-vlan-e-vtp.png)
+
+3. **Aprendi a controlar o fluxo de dados:** Defini manualmente o Switch 1 como o "chefão" da rede (Root Bridge). Com isso, eu determinei o caminho principal que os dados devem seguir, evitando que a rede perdesse tempo em rotas ineficientes.
+
+![Configuração Root Bridge STP](16-configuracao-root-bridge-stp.png)
+
+4. **Configurei as "estradas" da rede:** Ativei os links como Trunk entre os switches. Aprendi que isso é fundamental para que todas as VLANs consigam conversar através de um único cabo físico.
+
+![Verificação Trunking 802.1Q](17-verificacao-trunking-8021q.png)
+
+5. **Testei a proteção contra intrusos:** Ativei o BPDU Guard para proteger a hierarquia que eu criei. Validei que, se alguém tentar plugar um switch não autorizado, a porta é desativada na hora para proteger a rede.
+
+![Proteção BPDU Guard](18-protecao-hierarquia-bpdu-guard.png)
+
+6. **Validei a comunicação entre setores:** Configurei o roteador para servir de ponte entre as VLANs. Testei e comprovei que um PC do Financeiro consegue falar com um PC do Suporte de forma segura, usando o comando ping para confirmar o sucesso.
+
+![Validação Inter-VLAN Ping](19-validacao-intervlan-ping.png)
+
+7. **Juntei forças com o EtherChannel:** Configurei o protocolo LACP para unir dois cabos físicos em um só canal lógico. Aprendi que isso dobra a velocidade e, se um cabo quebrar, o outro segura a bronca sem a rede cair.
+
+![Verificação EtherChannel LACP](20-verificacao-etherchannel-lacp.png)
+
+8. **Configurei a segurança das portas:** Ativei o Port-Security para que a porta do switch aprenda quem deve estar ali. Testei a função de "shutdown" e vi que ela bloqueia o acesso instantaneamente se um dispositivo estranho tentar se conectar.
+
+![Verificação Port-Security](21-verificacao-port-security-infra.png)
