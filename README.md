@@ -1,5 +1,12 @@
-# Olá. Eu sou o Victor
+# Olá, sou Victor Marinho!
 
+Sou estudante de Engenharia de Software e um entusiasta focado em Cibersegurança e Infraestrutura de Redes. Meu objetivo é aplicar conhecimentos teóricos em soluções práticas, sempre buscando entender o 'como' e o 'porquê' por trás de cada protocolo e camada de segurança.
+
+Atualmente, dedico meu tempo ao desenvolvimento de laboratórios práticos (como este que você vê no meu portfólio), simulando cenários reais de infraestrutura para consolidar meus estudos para as certificações CompTIA Network+ e Security+.
+
+
+
+---
 # Laboratório: Segmentação de Rede e Roteamento Inter-VLAN
 
 Neste projeto, implementei a segmentação lógica de uma rede local (LAN) para isolar os departamentos de Financeiro e Suporte, garantindo segurança e controle de tráfego através de roteamento eficiente.
