@@ -9,8 +9,7 @@ Atualmente, dedico meu tempo ao desenvolvimento de laboratórios práticos (como
 ### 🛡️ Cibersegurança
 * [**Fortinet Certified Fundamentals (FCF) - Cybersecurity**](https://www.credly.com/badges/05439bda-6a5d-40e8-bdff-1ff4daf17a23/public_url)
 * [NSE 1: Getting Started in Cybersecurity 3.0](https://www.credly.com/badges/358bfae1-0e88-4dc3-aea3-0992a4f70bcf/public_url) (Fortinet)
-* [NSE 2: Technical Introduction to Cybersecurity 3.0](https://www.credly.com/badges/dba43948-44f0-44ac-8175-229978883dc3/public_url
-  ) (Fortinet)
+* [NSE 2: Technical Introduction to Cybersecurity 3.0](https://www.credly.com/badges/dba43948-44f0-44ac-8175-229978883dc3/public_url) (Fortinet)
 * [Cisco Network Defense](https://www.credly.com/badges/739b47ae-a961-44a6-b204-9739bcac93b6/public_url) 
 
 ### 🌐 Infraestrutura e Redes
